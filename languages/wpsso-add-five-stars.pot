@@ -32,7 +32,9 @@ msgstr ""
 
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
-msgid "Shortcode for advanced Schema markup of content sections."
+msgid ""
+"Add a 5 star rating and review from the site organization to the webpage "
+"Schema markup."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -44,7 +46,9 @@ msgid "https://wpsso.com/extend/plugins/wpsso-add-five-stars/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Shortcode for advanced Schema markup of content sections."
+msgid ""
+"Add a 5 star rating and review from the site organization to the webpage "
+"Schema markup."
 msgstr ""
 
 #. Author of the plugin/theme
