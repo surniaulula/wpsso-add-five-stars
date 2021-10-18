@@ -25,16 +25,18 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 	<li>If Google allows ratings for that Schema type.</li>
 </ul>
 
-<p style="clear:left;">Note that Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
+<p>Note that Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
 
-* Book
-* Course
-* Event
-* HowTo (includes Recipe)
-* LocalBusiness
-* Movie
-* Product
-* SoftwareApplication
+<ul style="display:inline-block;">
+	<li>Book</li>
+	<li>Course</li>
+	<li>Event</li>
+	<li>HowTo (includes Recipe)</li>
+	<li>LocalBusiness</li>
+	<li>Movie</li>
+	<li>Product</li>
+	<li>SoftwareApplication</li>
+</ul>
 
 If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
 
