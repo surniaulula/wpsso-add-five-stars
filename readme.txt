@@ -14,11 +14,11 @@ Tested Up To: 5.8.1
 WC Tested Up To: 5.8.0
 Stable Tag: 1.0.0
 
-Shortcode for advanced Schema markup of content sections.
+Add a 5 star rating and review from the site organization to the webpage Schema markup.
 
 == Description ==
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png">
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization to the webpage Schema markup.
 
 <h3>WPSSO Core Required</h3>
 
