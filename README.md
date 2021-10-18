@@ -15,9 +15,7 @@
 
 <h2>Description</h2>
 
-<p>&lt;</p>
-
-<p>p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization to the webpage Schema markup.</p>
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization to the webpage Schema markup.</p>
 
 <h3>WPSSO Core Required</h3>
 
