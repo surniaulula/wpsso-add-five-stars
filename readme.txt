@@ -86,7 +86,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.0 (2021/09/24)**
+**Version 1.0.0 (2021/10/18)**
 
 * **New Features**
 	* Initial release.
@@ -105,5 +105,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.0.0 =
 
-(2021/09/24) Initial release.
+(2021/10/18) Initial release.
 
