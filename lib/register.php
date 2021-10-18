@@ -10,15 +10,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
-if ( ! class_exists( 'WpssoSscRegister' ) ) {
+if ( ! class_exists( 'WpssoAfsRegister' ) ) {
 
-	class WpssoSscRegister {
+	class WpssoAfsRegister {
 
 		public function __construct() {
 
-			register_activation_hook( WPSSOSSC_FILEPATH, array( $this, 'network_activate' ) );
+			register_activation_hook( WPSSOAFS_FILEPATH, array( $this, 'network_activate' ) );
 
-			//register_deactivation_hook( WPSSOSSC_FILEPATH, array( $this, 'network_deactivate' ) );
+			//register_deactivation_hook( WPSSOAFS_FILEPATH, array( $this, 'network_deactivate' ) );
 
 			if ( is_multisite() ) {
 
@@ -109,9 +109,9 @@ if ( ! class_exists( 'WpssoSscRegister' ) ) {
 				 */
 				if ( class_exists( 'WpssoUtilReg' ) ) { // Since WPSSO Core v6.13.1.
 
-					$version = WpssoSscConfig::$cf[ 'plugin' ][ 'wpssossc' ][ 'version' ];
+					$version = WpssoAfsConfig::$cf[ 'plugin' ][ 'wpssoafs' ][ 'version' ];
 
-					WpssoUtilReg::update_ext_version( 'wpssossc', $version );
+					WpssoUtilReg::update_ext_version( 'wpssoafs', $version );
 				}
 			}
 		}
