@@ -14,11 +14,22 @@ Tested Up To: 5.8.1
 WC Tested Up To: 5.8.0
 Stable Tag: 1.0.0
 
-Add a 5 star rating and review from the site organization to the webpage Schema markup.
+Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
 
 == Description ==
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization to the webpage Schema markup.</p>
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property and Google allows ratings and reviews for that Schema type.</p>
+
+Note that Google supports ratings and reviews only for these types and their sub-types:
+
+* Book
+* Course
+* Event
+* HowTo (includes Recipe)
+* LocalBusiness
+* Movie
+* Product
+* SoftwareApplication
 
 <h3>WPSSO Core Required</h3>
 

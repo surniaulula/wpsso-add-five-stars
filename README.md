@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Add Five Stars</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Add a 5 star rating and review from the site organization to the webpage Schema markup.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Add a 5 star rating and review from the site organization if the Schema markup does not already have an &#039;aggregateRating&#039; property.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.0 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.0 or newer</td></tr>
@@ -15,7 +15,20 @@
 
 <h2>Description</h2>
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization to the webpage Schema markup.</p>
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property and Google allows ratings and reviews for that Schema type.</p>
+
+<p>Note that Google supports ratings and reviews only for these types and their sub-types:</p>
+
+<ul>
+<li>Book</li>
+<li>Course</li>
+<li>Event</li>
+<li>HowTo (includes Recipe)</li>
+<li>LocalBusiness</li>
+<li>Movie</li>
+<li>Product</li>
+<li>SoftwareApplication</li>
+</ul>
 
 <h3>WPSSO Core Required</h3>
 
