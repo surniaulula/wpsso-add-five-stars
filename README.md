@@ -15,9 +15,9 @@
 
 <h2>Description</h2>
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property and Google allows ratings and reviews for that Schema type.</p>
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization, if the Schema markup does not already have an 'aggregateRating' property, and if Google allows ratings and reviews for that Schema type.</p>
 
-<p>Note that Google supports ratings and reviews only for these types and their sub-types:</p>
+<p>Note that Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
 
 <ul>
 <li>Book</li>
@@ -29,6 +29,8 @@
 <li>Product</li>
 <li>SoftwareApplication</li>
 </ul>
+
+<p>If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.</p>
 
 <h3>WPSSO Core Required</h3>
 
