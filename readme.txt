@@ -20,14 +20,14 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization:</p>
 
-<ul style="display:inline-block;">
+<ul>
 	<li>If the Schema markup does not already have an 'aggregateRating' property.</li>
 	<li>If Google allows ratings for that Schema type.</li>
 </ul>
 
 <p>Note that Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
 
-<ul style="display:inline-block;">
+<ul>
 	<li>Book</li>
 	<li>Course</li>
 	<li>Event</li>
