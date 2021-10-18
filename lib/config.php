@@ -24,7 +24,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 					'desc'        => 'Add a 5 star rating and review from the site organization to the webpage Schema markup.',
 					'slug'        => 'wpsso-add-five-stars',
 					'base'        => 'wpsso-add-five-stars/wpsso-add-five-stars.php',
-					'update_auth' => 'tid',
+					'update_auth' => '',		// No premium version.
 					'text_domain' => 'wpsso-add-five-stars',
 					'domain_path' => '/languages',
 
