@@ -20,23 +20,19 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization:</p>
 
-<ul>
-	<li>If the Schema markup does not already have an 'aggregateRating' property.</li>
-	<li>If Google allows ratings for that Schema type.</li>
-</ul>
+* **If the Schema markup does not already have an 'aggregateRating' property.**
+* **If Google allows ratings for that Schema type.**
 
-<p>Note that Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
+<p>Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
 
-<ul>
-	<li>Book</li>
-	<li>Course</li>
-	<li>Event</li>
-	<li>HowTo (includes Recipe)</li>
-	<li>LocalBusiness</li>
-	<li>Movie</li>
-	<li>Product</li>
-	<li>SoftwareApplication</li>
-</ul>
+* Book
+* Course
+* Event
+* HowTo (includes Recipe)
+* LocalBusiness
+* Movie
+* Product
+* SoftwareApplication
 
 If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
 
