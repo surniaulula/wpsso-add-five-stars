@@ -1,0 +1,89 @@
+=== WPSSO Add Five Stars ===
+Plugin Name: WPSSO Add Five Stars
+Plugin Slug: wpsso-add-five-stars
+Text Domain: wpsso-add-five-stars
+Domain Path: /languages
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl.txt
+Assets URI: https://surniaulula.github.io/wpsso-add-five-stars/assets/
+Tags: schema, shortcode
+Contributors: jsmoriss
+Requires PHP: 7.0
+Requires At Least: 5.0
+Tested Up To: 5.8.1
+WC Tested Up To: 5.8.0
+Stable Tag: 1.0.0
+
+Shortcode for advanced Schema markup of content sections.
+
+== Description ==
+
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png">
+
+<h3>WPSSO Core Required</h3>
+
+WPSSO Add Five Stars (WPSSO AFS) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+
+== Installation ==
+
+<h3 class="top">Install and Uninstall</h3>
+
+* [Install the WPSSO Add Five Stars add-on](https://wpsso.com/docs/plugins/wpsso-add-five-stars/installation/install-the-plugin/).
+* [Uninstall the WPSSO Add Five Stars add-on](https://wpsso.com/docs/plugins/wpsso-add-five-stars/installation/uninstall-the-plugin/).
+
+== Frequently Asked Questions ==
+
+<h3 class="top">Frequently Asked Questions</h3>
+
+* None.
+
+<h3>Notes and Documentation</h3>
+
+* None.
+
+== Screenshots ==
+
+== Changelog ==
+
+<h3 class="top">Version Numbering</h3>
+
+Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
+
+* {major} = Major structural code changes / re-writes or incompatible API changes.
+* {minor} = New functionality was added or improved in a backwards-compatible manner.
+* {bugfix} = Backwards-compatible bug fixes or small improvements.
+* {stage}.{level} = Pre-production release: dev &lt; a (alpha) &lt; b (beta) &lt; rc (release candidate).
+
+<h3>Standard Version Repositories</h3>
+
+* [GitHub](https://surniaulula.github.io/wpsso-add-five-stars/)
+
+<h3>Development Version Updates</h3>
+
+<p><strong>WPSSO Core Premium customers have access to development, alpha, beta, and release candidate version updates:</strong></p>
+
+<p>Under the SSO &gt; Update Manager settings page, select the "Development and Up" (for example) version filter for the WPSSO Core plugin and/or its add-ons. Save the plugin settings and click the "Check for Plugin Updates" button to fetch the latest version information. When new development versions are available, they will automatically appear under your WordPress Dashboard &gt; Updates page. You can always reselect the "Stable / Production" version filter at any time to reinstall the latest stable version.</p>
+
+<h3>Changelog / Release Notes</h3>
+
+**Version 1.0.0 (2021/09/24)**
+
+* **New Features**
+	* Initial release.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v9.2.0.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+
+(2021/09/24) Initial release.
+
