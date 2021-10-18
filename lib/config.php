@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO AFS',	// Short plugin name.
 					'name'        => 'WPSSO Add Five Stars',
-					'desc'        => 'Add a 5 star rating and review from the site organization to the webpage Schema markup.',
+					'desc'        => 'Add a 5 star rating and review from the site organization if the Schema markup does not already have an \'aggregateRating\' property.',
 					'slug'        => 'wpsso-add-five-stars',
 					'base'        => 'wpsso-add-five-stars/wpsso-add-five-stars.php',
 					'update_auth' => '',		// No premium version.

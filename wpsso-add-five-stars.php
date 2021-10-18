@@ -10,7 +10,7 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Add a 5 star rating and review from the site organization to the webpage Schema markup.
+ * Description: Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
  * Requires PHP: 7.0
  * Requires At Least: 5.0
  * Tested Up To: 5.8.1

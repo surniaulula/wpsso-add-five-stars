@@ -4,4 +4,4 @@
  * Extract of translatable strings from lib/config.php.
  */
 _x( 'WPSSO Add Five Stars', 'plugin name', 'wpsso-add-five-stars' );
-_x( 'Add a 5 star rating and review from the site organization to the webpage Schema markup.', 'plugin description', 'wpsso-add-five-stars' );
+_x( 'Add a 5 star rating and review from the site organization if the Schema markup does not already have an \'aggregateRating\' property.', 'plugin description', 'wpsso-add-five-stars' );

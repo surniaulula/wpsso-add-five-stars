@@ -33,6 +33,132 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 
 			$this->p =& $plugin;
 			$this->a =& $addon;
+
+			$max_int = SucomUtil::get_max_int();
+
+			$this->p->util->add_plugin_filters( $this, array(
+				'json_data_https_schema_org_thing' => 5,
+			), $max_int );
+		}
+
+		/**
+		 * The Schema standard provides 'aggregateRating' and 'review' properties for these types:
+		 *
+		 * 	Brand
+		 * 	CreativeWork
+		 * 	Event
+		 * 	Offer
+		 * 	Organization
+		 * 	Place
+		 * 	Product
+		 * 	Service 
+		 *
+		 * Unfortunately, Google supports 'aggregateRating' and 'review' properties only for these types:
+		 *
+		 *	Book
+		 *	Course
+		 *	Event
+		 *	HowTo (includes Recipe)
+		 *	LocalBusiness
+		 *	Movie
+		 *	Product
+		 *	SoftwareApplication
+		 *
+		 * And the 'review' property only for these additional types:
+		 *
+		 *	CreativeWorkSeason
+		 *	CreativeWorkSeries
+		 *	Episode
+		 *	Game
+		 *	MediaObject
+		 *	MusicPlaylist
+		 * 	MusicRecording
+		 *	Organization
+		 */
+		public function filter_json_data_https_schema_org_thing( $json_data, $mod, $mt_og, $page_type_id, $is_main ) {
+
+			if ( $this->p->debug->enabled ) {
+
+				$this->p->debug->mark();
+			}
+
+			if ( $is_main ) {
+
+				if ( empty( $json_data[ 'aggregateRating' ] ) && empty( $json_data[ 'aggregateRating' ] ) ) {
+
+					if ( $this->allow_aggregate_rating( $page_type_id ) ) {
+
+						if ( ! $this->p->schema->is_schema_type_child( $page_type_id, 'review' ) ) {
+
+							$json_data[ 'aggregateRating' ] = WpssoSchema::get_schema_type_context( 'https://schema.org/AggregateRating', array(
+								'ratingValue' => 5,
+								'ratingCount' => 1,
+								'worstRating' => 1,
+								'bestRating'  => 5,
+							) );
+
+							$json_data[ 'review' ][] = WpssoSchema::get_schema_type_context( 'https://schema.org/Review', array(
+								'author'       => WpssoSchema::get_schema_type_context( 'https://schema.org/Organization', array(
+									'name' => SucomUtil::get_site_name( $this->p->options, $mod ),
+								) ),
+								'reviewRating' => WpssoSchema::get_schema_type_context( 'https://schema.org/Rating', array(
+									'ratingValue' => 5,
+									'worstRating' => 1,
+									'bestRating'  => 5,
+								) ),
+							) );
+						}
+					}
+				}
+			}
+
+			return $json_data;
+		}
+
+		private function allow_aggregate_rating( $page_type_id ) {
+
+			foreach ( $this->p->cf[ 'head' ][ 'schema_aggregate_rating_parents' ] as $parent_id ) {
+
+				if ( $this->p->schema->is_schema_type_child( $page_type_id, $parent_id ) ) {
+
+					if ( $this->p->debug->enabled ) {
+
+						$this->p->debug->log( 'aggregate rating for schema type ' . $page_type_id . ' is allowed' );
+					}
+
+					return true;
+				}
+			}
+
+			if ( $this->p->debug->enabled ) {
+
+				$this->p->debug->log( 'aggregate rating for schema type ' . $page_type_id . ' not allowed' );
+			}
+
+			return false;
+		}
+
+		private function allow_review( $page_type_id ) {
+
+			foreach ( $this->p->cf[ 'head' ][ 'schema_review_parents' ] as $parent_id ) {
+
+				if ( $this->p->schema->is_schema_type_child( $page_type_id, $parent_id ) ) {
+
+					if ( $this->p->debug->enabled ) {
+
+						$this->p->debug->log( 'review for schema type ' . $page_type_id . ' is allowed' );
+					}
+
+					return true;
+				}
+			}
+
+			if ( $this->p->debug->enabled ) {
+
+				$this->p->debug->log( 'review for schema type ' . $page_type_id . ' not allowed' );
+			}
+
+			return false;
 		}
 	}
 }
