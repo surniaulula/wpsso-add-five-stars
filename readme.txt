@@ -86,7 +86,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.0-b.2 (2021/10/19)**
+**Version 1.1.0-rc.1 (2021/10/19)**
 
 * **New Features**
 	* None.
@@ -118,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.0-b.2 =
+= 1.1.0-rc.1 =
 
 (2021/10/19) Moved the `allow_aggregate_rating()` and `allow_review()` method to the `WpssoSchema` class.
 
