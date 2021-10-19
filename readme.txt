@@ -23,7 +23,7 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 **The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:**
 
 1. If the Schema markup does not already have an 'aggregateRating' property.
-2. If Google allows ratings for that Schema type.**
+2. If Google allows an 'aggregateRating' property for that Schema type.
 
 **Note that Google allows an 'aggregateRating' property only for these Schema types and sub-types:**
 
