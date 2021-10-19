@@ -12,7 +12,7 @@ Requires PHP: 7.0
 Requires At Least: 5.0
 Tested Up To: 5.8.1
 WC Tested Up To: 5.8.0
-Stable Tag: 1.0.0
+Stable Tag: 1.1.0
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
 
