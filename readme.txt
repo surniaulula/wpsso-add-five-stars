@@ -18,12 +18,12 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 == Description ==
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization:</p>
+Add a 5 star rating and review from the site organization:
 
-* **If the Schema markup does not already have an 'aggregateRating' property.**
-* **If Google allows ratings for that Schema type.**
+1. **If the Schema markup does not already have an 'aggregateRating' property.**
+2. **If Google allows ratings for that Schema type.**
 
-<p>Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
+Google only allows an 'aggregateRating' property in these Schema types and sub-types:
 
 * Book
 * Course
@@ -82,6 +82,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.0-b.1 (2021/10/19)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Moved the `allow_aggregate_rating()` and `allow_review()` method to the `WpssoSchema` class.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v9.2.0.
+
 **Version 1.0.0 (2021/10/18)**
 
 * **New Features**
@@ -98,6 +113,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v9.2.0.
 
 == Upgrade Notice ==
+
+= 1.1.0-dev.1 =
+
+(2021/10/19) Moved the `allow_aggregate_rating()` and `allow_review()` method to the `WpssoSchema` class.
 
 = 1.0.0 =
 

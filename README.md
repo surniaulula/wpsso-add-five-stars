@@ -15,12 +15,12 @@
 
 <h2>Description</h2>
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-add-five-stars/assets/icon-256x256.png"> Add a 5 star rating and review from the site organization:</p>
+<p>Add a 5 star rating and review from the site organization:</p>
 
-<ul>
+<ol>
 <li><strong>If the Schema markup does not already have an 'aggregateRating' property.</strong></li>
 <li><strong>If Google allows ratings for that Schema type.</strong></li>
-</ul>
+</ol>
 
 <p>Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
 
