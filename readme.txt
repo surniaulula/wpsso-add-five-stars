@@ -95,7 +95,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Moved the `allow_aggregate_rating()` and `allow_review()` method to the `WpssoSchema` class.
+	* Moved `allow_aggregate_rating()` and `allow_review()` filter methods to the `WpssoSchema` class.
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
@@ -120,7 +120,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.1.0-rc.1 =
 
-(2021/10/19) Moved the `allow_aggregate_rating()` and `allow_review()` method to the `WpssoSchema` class.
+(2021/10/19) Moved `allow_aggregate_rating()` and `allow_review()` filter methods to the `WpssoSchema` class.
 
 = 1.0.0 =
 
