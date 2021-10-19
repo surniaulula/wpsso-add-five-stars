@@ -15,7 +15,9 @@
 
 <h2>Description</h2>
 
-<p>Add a 5 star rating and review from the site organization:</p>
+<!-- about -->
+
+<p>The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:</p>
 
 <ol>
 <li><strong>If the Schema markup does not already have an 'aggregateRating' property.</strong></li>
@@ -36,6 +38,8 @@
 </ul>
 
 <p>If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.</p>
+
+<!-- /about -->
 
 <h3>WPSSO Core Required</h3>
 

@@ -18,7 +18,9 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 == Description ==
 
-Add a 5 star rating and review from the site organization:
+<!-- about -->
+
+The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:
 
 1. **If the Schema markup does not already have an 'aggregateRating' property.**
 2. **If Google allows ratings for that Schema type.**
@@ -35,6 +37,8 @@ Google only allows an 'aggregateRating' property in these Schema types and sub-t
 * SoftwareApplication
 
 If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
+
+<!-- /about -->
 
 <h3>WPSSO Core Required</h3>
 
