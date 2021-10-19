@@ -20,12 +20,12 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 <!-- about -->
 
-The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:
+**The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:**
 
-1. **If the Schema markup does not already have an 'aggregateRating' property.**
-2. **If Google allows ratings for that Schema type.**
+1. If the Schema markup does not already have an 'aggregateRating' property.
+2. If Google allows ratings for that Schema type.**
 
-Google only allows an 'aggregateRating' property in these Schema types and sub-types:
+**Note that Google allows an 'aggregateRating' property only for these Schema types and sub-types:**
 
 * Book
 * Course
@@ -36,7 +36,7 @@ Google only allows an 'aggregateRating' property in these Schema types and sub-t
 * Product
 * SoftwareApplication
 
-If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
+If the Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
 
 <!-- /about -->
 

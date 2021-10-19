@@ -17,14 +17,14 @@
 
 <!-- about -->
 
-<p>The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:</p>
+<p><strong>The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:</strong></p>
 
 <ol>
-<li><strong>If the Schema markup does not already have an 'aggregateRating' property.</strong></li>
-<li><strong>If Google allows ratings for that Schema type.</strong></li>
+<li>If the Schema markup does not already have an 'aggregateRating' property.</li>
+<li>If Google allows ratings for that Schema type.**</li>
 </ol>
 
-<p>Google only allows an 'aggregateRating' property in these Schema types and sub-types:</p>
+<p><strong>Note that Google allows an 'aggregateRating' property only for these Schema types and sub-types:</strong></p>
 
 <ul>
 <li>Book</li>
@@ -37,7 +37,7 @@
 <li>SoftwareApplication</li>
 </ul>
 
-<p>If the selected Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.</p>
+<p>If the Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.</p>
 
 <!-- /about -->
 
