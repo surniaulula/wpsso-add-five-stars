@@ -34,11 +34,9 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 			$this->p =& $plugin;
 			$this->a =& $addon;
 
-			$max_int = SucomUtil::get_max_int();
-
 			$this->p->util->add_plugin_filters( $this, array(
 				'json_data_https_schema_org_thing' => 5,
-			), $max_int );
+			), PHP_INT_MAX );
 		}
 
 		/**
