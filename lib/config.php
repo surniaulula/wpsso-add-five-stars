@@ -83,52 +83,6 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 			define( 'WPSSOAFS_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-add-five-stars.
 			define( 'WPSSOAFS_URLPATH', trailingslashit( plugins_url( '', $plugin_file ) ) );
 			define( 'WPSSOAFS_VERSION', $info[ 'version' ] );
-
-			/**
-			 * Define variable constants.
-			 */
-			self::set_variable_constants();
-		}
-
-		public static function set_variable_constants( $var_const = null ) {
-
-			if ( ! is_array( $var_const ) ) {
-
-				$var_const = (array) self::get_variable_constants();
-			}
-
-			/**
-			 * Define the variable constants, if not already defined.
-			 */
-			foreach ( $var_const as $name => $value ) {
-
-				if ( ! defined( $name ) ) {
-
-					define( $name, $value );
-				}
-			}
-		}
-
-		public static function get_variable_constants() {
-
-			$var_const = array();
-
-			$var_const[ 'WPSSOAFS_SCHEMA_SHORTCODE_NAME' ]      = 'schema';
-			$var_const[ 'WPSSOAFS_SCHEMA_SHORTCODE_SEPARATOR' ] = '_';
-			$var_const[ 'WPSSOAFS_SCHEMA_SHORTCODE_DEPTH' ]     = 3;
-
-			/**
-			 * Maybe override the default constant value with a pre-defined constant value.
-			 */
-			foreach ( $var_const as $name => $value ) {
-
-				if ( defined( $name ) ) {
-
-					$var_const[$name] = constant( $name );
-				}
-			}
-
-			return $var_const;
 		}
 
 		public static function require_libs( $plugin_file ) {
