@@ -48,15 +48,15 @@ A ratings and reviews feature for your visitors / customers should be available 
 
 The following third-party plugins are supported by WPSSO Core Premium:
 
-	* WP-PostRatings
-	* WP Product Review
-	* Yotpo Social Reviews for WooCommerce
-	* WooCommerce
+* WP-PostRatings
+* WP Product Review
+* Yotpo Social Reviews for WooCommerce
+* WooCommerce
 
 The following remove service APIs are supported by WPSSO Core Premium:
 
-	* Shopper Approved (Ratings and Reviews)
-	* Stamped.io (Ratings and Reviews)
+* Shopper Approved (Ratings and Reviews)
+* Stamped.io (Ratings and Reviews)
 
 The [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can also be used to extend the WordPress comment system.
 

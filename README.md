@@ -51,17 +51,19 @@
 
 <p>The following third-party plugins are supported by WPSSO Core Premium:</p>
 
-<pre><code>* WP-PostRatings
-* WP Product Review
-* Yotpo Social Reviews for WooCommerce
-* WooCommerce
-</code></pre>
+<ul>
+<li>WP-PostRatings</li>
+<li>WP Product Review</li>
+<li>Yotpo Social Reviews for WooCommerce</li>
+<li>WooCommerce</li>
+</ul>
 
 <p>The following remove service APIs are supported by WPSSO Core Premium:</p>
 
-<pre><code>* Shopper Approved (Ratings and Reviews)
-* Stamped.io (Ratings and Reviews)
-</code></pre>
+<ul>
+<li>Shopper Approved (Ratings and Reviews)</li>
+<li>Stamped.io (Ratings and Reviews)</li>
+</ul>
 
 <p>The <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on can also be used to extend the WordPress comment system.</p>
 
