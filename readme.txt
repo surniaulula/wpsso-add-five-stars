@@ -20,12 +20,12 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 
 <!-- about -->
 
-**The WPSSO Add Five Stars add-on includes a 5 star rating and review from the site organization:**
+**The WPSSO Add Five Stars add-on will include a 5 star rating and review from the site organization if:**
 
-1. If the Schema markup does not already have an 'aggregateRating' property.
-2. If Google allows an 'aggregateRating' property for that Schema type.
+1. The document Schema markup does not already have an 'aggregateRating' property.
+2. Google allows an 'aggregateRating' property for the document Schema type.
 
-**Note that Google allows an 'aggregateRating' property only for these Schema types and sub-types:**
+**Google allows an 'aggregateRating' property for these Schema types and sub-types:**
 
 * Book
 * Course
@@ -36,9 +36,29 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 * Product
 * SoftwareApplication
 
-If the Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review will not be added.
+If the Schema type in the Document SSO metabox is not one of these types or sub-types, then a 5 star rating and review cannot be added.
 
 <!-- /about -->
+
+**The WPSSO Add Five Stars add-on should be a fallback solution:**
+
+A ratings and reviews feature for your visitors / customers should be available in the webpage. The WPSSO Add Five Stars add-on will include a 5 star rating and review from the site organization only if the document Schema markup does not already have an 'aggregateRating' property. It is preferable to include actual (and visible) ratings and reviews from your visitors in the webpage. The Google's Review Snippet technical guidelines reminds us to:
+
+> [Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content](https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines).
+
+The following third-party plugins are supported by WPSSO Core Premium:
+
+	* WP-PostRatings
+	* WP Product Review
+	* Yotpo Social Reviews for WooCommerce
+	* WooCommerce
+
+The following remove service APIs are supported by WPSSO Core Premium:
+
+	* Shopper Approved (Ratings and Reviews)
+	* Stamped.io (Ratings and Reviews)
+
+The [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can also be used to extend the WordPress comment system.
 
 <h3>WPSSO Core Required</h3>
 
