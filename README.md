@@ -49,7 +49,7 @@
   <p><a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines">Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content</a>.</p>
 </blockquote>
 
-<p><strong>The following third-party plugins are supported by WPSSO Core Premium:</strong></p>
+<p><strong>Third-party plugins supported by WPSSO Core (Premium version):</strong></p>
 
 <ul>
 <li>WP-PostRatings</li>
@@ -58,14 +58,14 @@
 <li>WooCommerce</li>
 </ul>
 
-<p><strong>The following remove service APIs are supported by WPSSO Core Premium:</strong></p>
+<p><strong>Remote service APIs supported by WPSSO Core (Premium version):</strong></p>
 
 <ul>
 <li>Shopper Approved (Ratings and Reviews)</li>
 <li>Stamped.io (Ratings and Reviews)</li>
 </ul>
 
-<p><strong>The <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on can also be used to extend the WordPress comment system.</strong></p>
+<p><strong>The complementary <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on can also be used to extend the WordPress comment system.</strong></p>
 
 <h3>WPSSO Core Required</h3>
 

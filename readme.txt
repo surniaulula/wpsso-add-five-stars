@@ -46,19 +46,19 @@ A ratings and reviews feature for your visitors / customers should be available 
 
 > [Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content](https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines).
 
-**The following third-party plugins are supported by WPSSO Core Premium:**
+**Third-party plugins supported by WPSSO Core (Premium version):**
 
 * WP-PostRatings
 * WP Product Review
 * Yotpo Social Reviews for WooCommerce
 * WooCommerce
 
-**The following remove service APIs are supported by WPSSO Core Premium:**
+**Remote service APIs supported by WPSSO Core (Premium version):**
 
 * Shopper Approved (Ratings and Reviews)
 * Stamped.io (Ratings and Reviews)
 
-**The [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can also be used to extend the WordPress comment system.**
+**The complementary [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can also be used to extend the WordPress comment system.**
 
 <h3>WPSSO Core Required</h3>
 
