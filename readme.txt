@@ -1,4 +1,4 @@
-=== WPSSO Add Five Stars for Google ===
+=== WPSSO Add Five Stars for Google Rich Snippets ===
 Plugin Name: WPSSO Add Five Stars
 Plugin Slug: wpsso-add-five-stars
 Text Domain: wpsso-add-five-stars

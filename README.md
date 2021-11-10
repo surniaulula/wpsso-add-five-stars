@@ -1,4 +1,4 @@
-<h1>WPSSO Add Five Stars for Google</h1>
+<h1>WPSSO Add Five Stars for Google Rich Snippets</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Add Five Stars</td></tr>
