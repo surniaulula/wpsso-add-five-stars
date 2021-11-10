@@ -51,7 +51,7 @@
 
 <p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not have an 'aggregateRating' property</em> - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.</p>
 
-<p><strong>Third-party plugins supported by WPSSO Core (Premium version):</strong></p>
+<p><strong>Third-party plugins supported by WPSSO Core (Premium edition):</strong></p>
 
 <ul>
 <li>WP-PostRatings</li>
@@ -60,7 +60,7 @@
 <li>WooCommerce</li>
 </ul>
 
-<p><strong>Remote service APIs supported by WPSSO Core (Premium version):</strong></p>
+<p><strong>Remote service APIs supported by WPSSO Core (Premium edition):</strong></p>
 
 <ul>
 <li>Shopper Approved (Ratings and Reviews)</li>

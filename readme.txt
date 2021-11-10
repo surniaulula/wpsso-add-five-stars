@@ -48,14 +48,14 @@ The Google's Review Snippet technical guidelines reminds us to:
 
 The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Schema markup does not have an 'aggregateRating' property* - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.
 
-**Third-party plugins supported by WPSSO Core (Premium version):**
+**Third-party plugins supported by WPSSO Core (Premium edition):**
 
 * WP-PostRatings
 * WP Product Review
 * Yotpo Social Reviews for WooCommerce
 * WooCommerce
 
-**Remote service APIs supported by WPSSO Core (Premium version):**
+**Remote service APIs supported by WPSSO Core (Premium edition):**
 
 * Shopper Approved (Ratings and Reviews)
 * Stamped.io (Ratings and Reviews)
@@ -96,9 +96,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev &lt; a (alpha) &lt; b (beta) &lt; rc (release candidate).
 
-<h3>Standard Version Repositories</h3>
+<h3>Standard Edition Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-add-five-stars/)
+* [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-add-five-stars/)
 
 <h3>Development Version Updates</h3>
 
