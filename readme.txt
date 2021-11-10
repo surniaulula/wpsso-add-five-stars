@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-add-five-stars/assets/
-Tags: schema, shortcode
+Tags: google, schema, rich snippet, stars, ratings, reviews, aggregate
 Contributors: jsmoriss
 Requires PHP: 7.0
 Requires At Least: 5.0
