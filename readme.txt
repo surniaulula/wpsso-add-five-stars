@@ -42,9 +42,11 @@ If the Schema type in the Document SSO metabox is not one of these types or sub-
 
 **The WPSSO Add Five Stars add-on should be a fallback solution:**
 
-A ratings and reviews feature for your visitors / customers should be available in the webpage. The WPSSO Add Five Stars add-on will include a 5 star rating and review from the site organization only if the document Schema markup does not already have an 'aggregateRating' property. It is preferable to include actual (and visible) ratings and reviews from your visitors in the webpage. The Google's Review Snippet technical guidelines reminds us to:
+The Google's Review Snippet technical guidelines reminds us to:
 
 > [Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content](https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines).
+
+The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Schema markup does not have an 'aggregateRating' property* - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.
 
 **Third-party plugins supported by WPSSO Core (Premium version):**
 

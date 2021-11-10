@@ -43,11 +43,13 @@
 
 <p><strong>The WPSSO Add Five Stars add-on should be a fallback solution:</strong></p>
 
-<p>A ratings and reviews feature for your visitors / customers should be available in the webpage. The WPSSO Add Five Stars add-on will include a 5 star rating and review from the site organization only if the document Schema markup does not already have an 'aggregateRating' property. It is preferable to include actual (and visible) ratings and reviews from your visitors in the webpage. The Google's Review Snippet technical guidelines reminds us to:</p>
+<p>The Google's Review Snippet technical guidelines reminds us to:</p>
 
 <blockquote>
   <p><a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines">Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content</a>.</p>
 </blockquote>
+
+<p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not have an 'aggregateRating' property</em> - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.</p>
 
 <p><strong>Third-party plugins supported by WPSSO Core (Premium version):</strong></p>
 
