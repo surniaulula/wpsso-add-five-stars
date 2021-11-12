@@ -56,7 +56,7 @@
 <p>The <a href="https://wpsso.com/extend/plugins/wpsso/">WPSSO Core Premium plugin</a> supports a number of third-party plugins and remote service APIs offering rating and review features:</p>
 
 <ul>
-<li><p><strong>Third-party plugins:</strong></p>
+<li><p><strong>Supported third-party plugins:</strong></p>
 
 <ul>
 <li>WP-PostRatings</li>
@@ -64,7 +64,7 @@
 <li>Yotpo Social Reviews for WooCommerce</li>
 <li>WooCommerce</li>
 </ul></li>
-<li><p><strong>Service APIs:</strong></p>
+<li><p><strong>Supported service APIs:</strong></p>
 
 <ul>
 <li>Shopper Approved (Ratings and Reviews)</li>
