@@ -41,7 +41,13 @@
 
 <!-- /about -->
 
-<p><strong>The WPSSO Add Five Stars add-on should be a fallback solution:</strong></p>
+<p>&lt;</p>
+
+<p>h3>The WPSSO Add Five Stars add-on Should be a Fallback Solution</p>
+
+<p>&lt;</p>
+
+<p>h3></p>
 
 <p>The Google's Review Snippet technical guidelines reminds us to:</p>
 
@@ -51,23 +57,34 @@
 
 <p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not have an 'aggregateRating' property</em> - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.</p>
 
-<p><strong>Third-party plugins supported by WPSSO Core (Premium edition):</strong></p>
+<p>&lt;</p>
+
+<p>h3>Suggested Rating and Review Plugins and Services</p>
+
+<p>&lt;</p>
+
+<p>h3></p>
+
+<p>The <a href="https://wpsso.com/extend/plugins/wpsso/">WPSSO Core Premium plugin</a> supports a number of third-party plugins and remote service APIs offering rating and review features:</p>
+
+<ul>
+<li><p><strong>Third-party plugins:</strong></p>
 
 <ul>
 <li>WP-PostRatings</li>
 <li>WP Product Review</li>
 <li>Yotpo Social Reviews for WooCommerce</li>
 <li>WooCommerce</li>
-</ul>
-
-<p><strong>Remote service APIs supported by WPSSO Core (Premium edition):</strong></p>
+</ul></li>
+<li><p><strong>Service APIs:</strong></p>
 
 <ul>
 <li>Shopper Approved (Ratings and Reviews)</li>
 <li>Stamped.io (Ratings and Reviews)</li>
+</ul></li>
 </ul>
 
-<p><strong>The complementary <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on can also be used to extend the WordPress comment system.</strong></p>
+<p>Alternatively, if your site already uses the built-in WordPress commenting system, the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on can be used to extend the WordPress comment system with rating and review features.</p>
 
 <h3>WPSSO Core Required</h3>
 
