@@ -40,7 +40,7 @@ If the Schema type in the Document SSO metabox is not one of these types or sub-
 
 <!-- /about -->
 
-<h3>The WPSSO Add Five Stars add-on Should be a Fallback Solution<h3>
+<h3>The WPSSO Add Five Stars add-on Should be a Fallback Solution</h3>
 
 The Google's Review Snippet technical guidelines reminds us to:
 
@@ -48,7 +48,7 @@ The Google's Review Snippet technical guidelines reminds us to:
 
 The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Schema markup does not have an 'aggregateRating' property* - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.
 
-<h3>Suggested Rating and Review Plugins and Services<h3>
+<h3>Suggested Rating and Review Plugins and Services</h3>
 
 The [WPSSO Core Premium plugin](https://wpsso.com/extend/plugins/wpsso/) supports a number of third-party plugins and remote service APIs offering rating and review features:
 

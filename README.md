@@ -41,13 +41,7 @@
 
 <!-- /about -->
 
-<p>&lt;</p>
-
-<p>h3>The WPSSO Add Five Stars add-on Should be a Fallback Solution</p>
-
-<p>&lt;</p>
-
-<p>h3></p>
+<h3>The WPSSO Add Five Stars add-on Should be a Fallback Solution</h3>
 
 <p>The Google's Review Snippet technical guidelines reminds us to:</p>
 
@@ -57,13 +51,7 @@
 
 <p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not have an 'aggregateRating' property</em> - it is preferable to include actual ratings and reviews from your visitors and customers in the webpage.</p>
 
-<p>&lt;</p>
-
-<p>h3>Suggested Rating and Review Plugins and Services</p>
-
-<p>&lt;</p>
-
-<p>h3></p>
+<h3>Suggested Rating and Review Plugins and Services</h3>
 
 <p>The <a href="https://wpsso.com/extend/plugins/wpsso/">WPSSO Core Premium plugin</a> supports a number of third-party plugins and remote service APIs offering rating and review features:</p>
 
