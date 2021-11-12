@@ -109,7 +109,7 @@ if ( ! class_exists( 'WpssoAfsRegister' ) ) {
 				 */
 				if ( class_exists( 'WpssoUtilReg' ) ) { // Since WPSSO Core v6.13.1.
 
-					$version = WpssoAfsConfig::$cf[ 'plugin' ][ 'wpssoafs' ][ 'version' ];
+					$version = WpssoAfsConfig::get_version();
 
 					WpssoUtilReg::update_ext_version( 'wpssoafs', $version );
 				}
