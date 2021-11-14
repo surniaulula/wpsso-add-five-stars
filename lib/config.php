@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoafs' => array(			// Plugin acronym.
-					'version'     => '1.1.0',	// Plugin version.
+					'version'     => '1.1.1-dev.3',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO AFS',	// Short plugin name.
 					'name'        => 'WPSSO Add Five Stars',
