@@ -79,14 +79,6 @@ WPSSO Add Five Stars (WPSSO AFS) is an add-on for the [WPSSO Core plugin](https:
 
 == Frequently Asked Questions ==
 
-<h3 class="top">Frequently Asked Questions</h3>
-
-* None.
-
-<h3>Notes and Documentation</h3>
-
-* None.
-
 == Screenshots ==
 
 == Changelog ==
