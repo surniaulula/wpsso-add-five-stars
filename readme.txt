@@ -25,7 +25,7 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 1. The Schema markup for the document does not already have an 'aggregateRating' property.
 2. Google allows an 'aggregateRating' property for the document Schema type.
 
-**Google allows an 'aggregateRating' property for these Schema types and their sub-types:**
+**Google allows an 'aggregateRating' property only for these Schema types and their sub-types:**
 
 * Book
 * Course
