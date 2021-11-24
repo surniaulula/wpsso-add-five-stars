@@ -36,7 +36,7 @@ Add a 5 star rating and review from the site organization if the Schema markup d
 * Product
 * SoftwareApplication
 
-> If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review will not be added, as doing so would trigger a Schema markup error in the Google search console.
+> If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review cannot be added, as doing so would trigger an error in the Google search console.
 
 <!-- /about -->
 
