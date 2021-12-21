@@ -50,7 +50,7 @@ The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Sc
 
 <h3>Suggested Rating and Review Plugins and Services</h3>
 
-The [WPSSO Core Premium plugin](https://wpsso.com/extend/plugins/wpsso/) supports a number of third-party plugins and remote service APIs offering rating and review features:
+The [WPSSO Core Premium plugin](https://wpsso.com/) supports a number of third-party plugins and remote service APIs offering rating and review features:
 
 * **Supported third-party plugins:**
 
