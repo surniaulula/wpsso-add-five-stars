@@ -38,7 +38,7 @@
 </ul>
 
 <blockquote>
-  <p>If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review cannot be added, as doing so would trigger an error in the Google search console.</p>
+  <p>If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review cannot be added, as doing so would trigger an error in the Google search console. <a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet">See Google's Review snippet documentation for additional information.</a></p>
 </blockquote>
 
 <!-- /about -->
@@ -48,7 +48,7 @@
 <p>The Google's Review Snippet technical guidelines reminds us to:</p>
 
 <blockquote>
-  <p><a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines">Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content</a>.</p>
+  <p><a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines">Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content.</a></p>
 </blockquote>
 
 <p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not already have an 'aggregateRating' property</em>. It is always preferable to include actual ratings and reviews from your visitors and/or customers in the webpage. The WPSSO Add Five Stars add-on can be used in combination with any of the following third-party plugins and service APIs, or the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on.</p>
