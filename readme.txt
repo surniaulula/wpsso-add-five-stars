@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.2
 Requires At Least: 5.2
 Tested Up To: 6.0.1
-WC Tested Up To: 6.8.0
+WC Tested Up To: 6.8.1
 Stable Tag: 1.2.1
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
@@ -50,19 +50,17 @@ The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Sc
 
 <h3>Suggested Rating and Review Plugins and Services</h3>
 
-The [WPSSO Core Premium plugin](https://wpsso.com/) supports a number of third-party plugins and remote service APIs offering rating and review features:
+The [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) supports a selection of third-party plugins offering rating and review features:
 
-* **Supported third-party plugins:**
+* WP-PostRatings
+* WP Product Review
+* Yotpo Social Reviews for WooCommerce
+* WooCommerce
 
-	* WP-PostRatings
-	* WP Product Review
-	* Yotpo Social Reviews for WooCommerce
-	* WooCommerce
+The [WPSSO Core Premium plugin](https://wpsso.com/) also supports a selection of remote service APIs offering rating and review features:
 
-* **Supported service APIs:**
-
-	* Shopper Approved (Ratings and Reviews)
-	* Stamped.io (Ratings and Reviews)
+* Shopper Approved (Ratings and Reviews)
+* Stamped.io (Ratings and Reviews)
 
 Alternatively, if your site already uses the built-in WordPress commenting system, the [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can be used to extend the WordPress comment system with rating and review features.
 
