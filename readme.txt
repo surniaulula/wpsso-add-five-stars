@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.2
 Requires At Least: 5.2
 Tested Up To: 6.1.0
-WC Tested Up To: 6.9.4
+WC Tested Up To: 7.0.0
 Stable Tag: 1.2.1
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
