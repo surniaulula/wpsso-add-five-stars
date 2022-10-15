@@ -49,7 +49,7 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 		 * 	Organization
 		 * 	Place
 		 * 	Product
-		 * 	Service 
+		 * 	Service
 		 *
 		 * Unfortunately Google allows the 'aggregateRating' property only for these types:
 		 *
