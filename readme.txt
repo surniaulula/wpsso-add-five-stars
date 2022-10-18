@@ -8,10 +8,10 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-add-five-stars/assets/
 Tags: google, schema, rich snippet, stars, ratings, reviews, aggregate
 Contributors: jsmoriss
+Requires Plugins: wpsso
 Requires PHP: 7.2
 Requires At Least: 5.2
 Tested Up To: 6.1.0
-WC Tested Up To: 7.0.0
 Stable Tag: 1.2.1
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
@@ -50,14 +50,14 @@ The WPSSO Add Five Stars add-on will include a 5 star rating *if the document Sc
 
 <h3>Suggested Rating and Review Plugins and Services</h3>
 
-The [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) supports a selection of third-party plugins offering rating and review features:
+The [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) supports a selection of third-party plugins that provide ratings and reviews:
 
 * WP-PostRatings
 * WP Product Review
 * Yotpo Social Reviews for WooCommerce
 * WooCommerce
 
-The [WPSSO Core Premium plugin](https://wpsso.com/) also supports a selection of remote service APIs offering rating and review features:
+The [WPSSO Core Premium plugin](https://wpsso.com/) also supports a selection of remote service APIs that provide ratings and reviews:
 
 * Shopper Approved (Ratings and Reviews)
 * Stamped.io (Ratings and Reviews)
