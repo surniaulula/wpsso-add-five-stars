@@ -66,7 +66,7 @@ Alternatively, if your site already uses the built-in WordPress commenting syste
 
 <h3>WPSSO Core Required</h3>
 
-WPSSO Add Five Stars (WPSSO AFS) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/), which creates complete structured data for WordPress: Present your content at its best on social sites and in search results – no matter how URLs are shared, reshared, messaged, posted, embedded, or crawled.
+WPSSO Add Five Stars (WPSSO AFS) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/), which provides complete structured data for WordPress to present your content at its best on social sites and in search results – no matter how URLs are shared, reshared, messaged, posted, embedded, or crawled.
 
 == Installation ==
 
