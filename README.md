@@ -16,14 +16,14 @@
 
 <!-- about -->
 
-<p><strong>The WPSSO Add Five Stars add-on will include a 5 star rating and review from the site organization in the Schema markup if:</strong></p>
+<p><strong>Includes a 5 star rating and review from the site organization in Schema markup:</strong></p>
 
 <ol>
-<li>The Schema markup for the document does not already have an 'aggregateRating' property.</li>
-<li>Google allows an 'aggregateRating' property for the document Schema type.</li>
+<li>If the Schema markup does not already have an 'aggregateRating' property.</li>
+<li>If Google allows an 'aggregateRating' property for that Schema type.</li>
 </ol>
 
-<p><strong>Google allows an 'aggregateRating' property only for these Schema types and their sub-types:</strong></p>
+<p>Note that Google allows an 'aggregateRating' property for these Schema types and their sub-types:</p>
 
 <ul>
 <li>Book</li>
@@ -36,13 +36,11 @@
 <li>SoftwareApplication</li>
 </ul>
 
-<blockquote>
-  <p>If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review cannot be added, as doing so would trigger an error in the Google search console. <a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet">See Google's Review snippet documentation for additional information.</a></p>
-</blockquote>
+<p>If the Schema type in the Document SSO metabox is not one of these types (or one of their sub-types), then a 5 star rating and review cannot be added, as doing so would trigger an error in the Google search console. <a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet">See Google's Review snippet documentation for additional information.</a></p>
 
 <!-- /about -->
 
-<h3>WPSSO Add Five Stars Should be a Fallback Solution</h3>
+<h3>WPSSO Add Five Stars is a Fallback Solution</h3>
 
 <p>The Google's Review Snippet technical guidelines reminds us to:</p>
 
@@ -50,7 +48,7 @@
   <p><a href="https://developers.google.com/search/docs/advanced/structured-data/review-snippet#technical-guidelines">Make sure the reviews and ratings you mark up are readily available to users from the marked-up page. It must be immediately obvious to users that the page has review content.</a></p>
 </blockquote>
 
-<p>The WPSSO Add Five Stars add-on will include a 5 star rating <em>if the document Schema markup does not already have an 'aggregateRating' property</em>. It is always preferable to include actual ratings and reviews from your visitors and/or customers in the webpage. The WPSSO Add Five Stars add-on can be used in combination with any of the following third-party plugins and service APIs, or the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on.</p>
+<p>The WPSSO Add Five Stars add-on includes a 5 star rating <em>if the document Schema markup does not already have an 'aggregateRating' property</em>. It is always preferable to include actual ratings and reviews from your visitors and/or customers in the webpage. The WPSSO Add Five Stars add-on can be used in combination with any of the following third-party plugins and service APIs, or the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on.</p>
 
 <h3>Suggested Rating and Review Plugins and Services</h3>
 
