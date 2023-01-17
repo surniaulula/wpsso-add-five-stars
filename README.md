@@ -16,14 +16,14 @@
 
 <!-- about -->
 
-<p><strong>Includes a 5 star rating and review from the site organization in Schema markup:</strong></p>
+<p><strong>Includes a 5 star rating from the site organization in Schema markup:</strong></p>
 
 <ol>
-<li>If the Schema markup does not already have an 'aggregateRating' property.</li>
+<li>If the Schema markup does not have an 'aggregateRating' property.</li>
 <li>If Google allows an 'aggregateRating' property for that Schema type.</li>
 </ol>
 
-<p>Note that Google allows an 'aggregateRating' property for these Schema types and their sub-types:</p>
+<p>Google allows an 'aggregateRating' property for these Schema types and their sub-types:</p>
 
 <ul>
 <li>Book</li>
@@ -50,7 +50,7 @@
 
 <p>The WPSSO Add Five Stars add-on includes a 5 star rating <em>if the document Schema markup does not already have an 'aggregateRating' property</em>. It is always preferable to include actual ratings and reviews from your visitors and/or customers in the webpage. The WPSSO Add Five Stars add-on can be used in combination with any of the following third-party plugins and service APIs, or the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on.</p>
 
-<h3>Suggested Rating and Review Plugins and Services</h3>
+<p><strong>Suggested rating and review plugins and services:</strong></p>
 
 <p>The <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> supports a selection of third-party plugins that provide ratings and reviews:</p>
 
