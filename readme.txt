@@ -12,7 +12,7 @@ Requires Plugins: wpsso
 Requires PHP: 7.2
 Requires At Least: 5.2
 Tested Up To: 6.1.1
-Stable Tag: 1.2.1
+Stable Tag: 1.3.0
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
 
