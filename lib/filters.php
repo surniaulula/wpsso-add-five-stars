@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 		private $p;		// Wpsso class object.
 		private $a;		// WpssoAfs class object.
 
-		/**
+		/*
 		 * Instantiated by WpssoAfs->init_objects().
 		 */
 		public function __construct( &$plugin, &$addon ) {
@@ -39,7 +39,7 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 			), PHP_INT_MAX );
 		}
 
-		/**
+		/*
 		 * The Schema standard provides 'aggregateRating' and 'review' properties for these types:
 		 *
 		 * 	Brand

@@ -28,7 +28,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 					'text_domain' => 'wpsso-add-five-stars',
 					'domain_path' => '/languages',
 
-					/**
+					/*
 					 * Required plugin and its version.
 					 */
 					'req' => array(
@@ -41,12 +41,12 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 						),
 					),
 
-					/**
+					/*
 					 * URLs or relative paths to plugin banners and icons.
 					 */
 					'assets' => array(
 
-						/**
+						/*
 						 * Icon image array keys are '1x' and '2x'.
 						 */
 						'icons' => array(
@@ -74,7 +74,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 
 			$info =& self::$cf[ 'plugin' ][ 'wpssoafs' ];
 
-			/**
+			/*
 			 * Define fixed constants.
 			 */
 			define( 'WPSSOAFS_FILEPATH', $plugin_file );
