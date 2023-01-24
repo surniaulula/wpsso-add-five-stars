@@ -50,19 +50,18 @@ The WPSSO Add Five Stars add-on includes a 5 star rating *if the document Schema
 
 **Suggested Rating and Review Plugins and Services:**
 
-The [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) supports a selection of third-party plugins that provide ratings and reviews:
+The [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) supports a selection of plugins that provide ratings and reviews:
 
 * WP-PostRatings
 * WP Product Review
 * Yotpo Social Reviews for WooCommerce
 * WooCommerce
+* [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/)
 
 The [WPSSO Core Premium plugin](https://wpsso.com/) also supports a selection of remote service APIs that provide ratings and reviews:
 
 * Shopper Approved (Ratings and Reviews)
 * Stamped.io (Ratings and Reviews)
-
-Alternatively, if your site already uses the built-in WordPress commenting system, the [WPSSO Ratings and Reviews](https://wordpress.org/plugins/wpsso-ratings-and-reviews/) add-on can be used to extend the WordPress comment system with rating and review features.
 
 <h3>WPSSO Core Required</h3>
 
@@ -108,11 +107,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **New Features**
 	* None.
 * **Improvements**
-	* Added compatibility declaration for WooCommerce HPOS.
+	* None.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Updated the `WpssoAbstractAddOn` class.
+	* Updated the `WpssoAbstractAddOn` library class.
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.2.
@@ -217,7 +216,7 @@ Maintenance release.
 
 = 1.3.1-dev.2 =
 
-(2023/01/24) Added compatibility declaration for WooCommerce HPOS.
+(2023/01/24) Updated the `WpssoAbstractAddOn` library class.
 
 = 1.3.0 =
 
