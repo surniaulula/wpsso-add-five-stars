@@ -102,7 +102,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.3.1-dev.6 (2023/01/25)**
+**Version 1.3.1-rc.1 (2023/01/25)**
 
 * **New Features**
 	* None.
@@ -115,7 +115,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.4.
-	* WPSSO Core v14.7.0-dev.6.
+	* WPSSO Core v14.7.0-rc.1.
 
 **Version 1.3.0 (2023/01/20)**
 
@@ -214,7 +214,7 @@ Maintenance release.
 
 == Upgrade Notice ==
 
-= 1.3.1-dev.6 =
+= 1.3.1-rc.1 =
 
 (2023/01/25) Updated the minimum WordPress version from v5.2 to v5.4.
 
