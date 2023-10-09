@@ -118,7 +118,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 
 					if ( empty( $classname ) ) {
 
-						$classname = SucomUtil::sanitize_classname( 'wpssoafs' . $filespec, $allow_underscore = false );
+						return SucomUtil::sanitize_classname( 'wpssoafs' . $filespec, $allow_underscore = false );
 					}
 
 					return $classname;
