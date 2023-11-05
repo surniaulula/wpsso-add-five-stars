@@ -104,7 +104,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.0-dev.11 (2021/11/04)**
+**Version 1.4.0-dev.11 (2021/11/05)**
 
 * **New Features**
 	* None.
@@ -233,7 +233,7 @@ Maintenance release.
 
 = 1.4.0-dev.11 =
 
-(2021/11/04) Refactored the settings page load process.
+(2021/11/05) Refactored the settings page load process.
 
 = 1.3.1 =
 
