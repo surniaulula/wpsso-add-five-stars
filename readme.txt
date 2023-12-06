@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires Plugins: wpsso
 Requires PHP: 7.2.34
 Requires At Least: 5.5
-Tested Up To: 6.4.1
+Tested Up To: 6.4.2
 Stable Tag: 2.0.0
 
 Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
