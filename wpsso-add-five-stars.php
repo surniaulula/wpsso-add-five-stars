@@ -13,7 +13,7 @@
  * Description: Add a 5 star rating and review from the site organization if the Schema markup does not already have an 'aggregateRating' property.
  * Requires Plugins: wpsso
  * Requires PHP: 7.2.34
- * Requires At Least: 5.5
+ * Requires At Least: 5.8
  * Tested Up To: 6.4.2
  * Version: 2.0.0
  *
