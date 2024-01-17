@@ -105,7 +105,7 @@ if ( ! class_exists( 'WpssoAfsFilters' ) ) {
 
 							$json_data[ 'review' ][] = WpssoSchema::get_schema_type_context( 'https://schema.org/Review', array(
 								'author' => WpssoSchema::get_schema_type_context( 'https://schema.org/Organization', array(
-									'name' => SucomUtil::get_site_name( $this->p->options, $mod ),
+									'name' => SucomUtilWP::get_site_name( $this->p->options, $mod ),
 								) ),
 								'reviewRating' => WpssoSchema::get_schema_type_context( 'https://schema.org/Rating', array(
 									'ratingValue' => 5,
