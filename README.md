@@ -3,7 +3,7 @@
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Add Five Stars</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Add a 5 star rating and review from the site organization if the Schema markup does not already have an &#039;aggregateRating&#039; property.</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Version</th><td>2.0.0</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>2.1.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.2.34 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.8 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To WordPress</th><td>6.4.2</td></tr>
