@@ -119,7 +119,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v5.8.
 	* WPSSO Core v17.8.0.
 
-**Version 2.0.0 (2021/11/08)**
+**Version 2.0.0 (2023/11/08)**
 
 * **New Features**
 	* None.
@@ -142,5 +142,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 2.0.0 =
 
-(2021/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
+(2023/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
 
