@@ -65,6 +65,7 @@
 <p>The <a href="https://wpsso.com/">WPSSO Core Premium plugin</a> also supports a selection of remote service APIs that provide ratings and reviews:</p>
 
 <ul>
+<li>Judge.me (Ratings and Reviews)</li>
 <li>Shopper Approved (Ratings and Reviews)</li>
 <li>Stamped.io (Ratings and Reviews)</li>
 </ul>
