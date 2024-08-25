@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoafs' => array(			// Plugin acronym.
-					'version'     => '2.2.0-b.1',	// Plugin version.
+					'version'     => '2.2.0-rc.1',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO AFS',	// Short plugin name.
 					'name'        => 'WPSSO Add Five Stars',
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAfsConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '18.5.0-b.1',
+							'min_version'   => '18.5.0-rc.1',
 						),
 					),
 
